@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;1,500&display=swap');
+p,h1,h2,label,button{
+    font-family: 'Barlow Semi Condensed', sans-serif;}
+body{
+    margin: 0%;
+}
+.front{  
+    position: absolute;
+    top:20%;
+    left:12%;
+     width: 35.4%;
+     height: 41%;
+     color:white
+}
+.white{
+    position: relative;
+    z-index: 1;
+}
+.card{
+    position: relative;
+    bottom:38%;
+}
+.front>h1{
+    position: absolute;
+    top:45%;
+    left:15%;
+}
+.m{
+    position: absolute;
+    bottom: 3%;
+    right:5%
+}
+.y{
+    position: absolute;
+    bottom: 3%;
+    right:10%
+}
+.slash{
+    position: absolute;
+    bottom: 3%;
+    right:8.5%
+}
+#name{
+    position:absolute;
+    bottom: 3%;
+    left:5%
+}
+.white{
+    margin: 6%;
+}
+.back{
+    position:absolute;
+    top:64%;
+    left:19%;
+}
+.back>p{
+    position:absolute;
+    top:38%;
+    right:15%;
+    color:white;
+}
+#cardinfo{
+    position: absolute;
+    top:29%;
+    right:0%;
+    width: 35%;
+}
+input{
+    border:solid hsl(270, 3%, 87%);
+    border-radius: 10px;
+}
+#cardinfo>input:hover{
+border-color:rebeccapurple ;
+}
+#cardinfo>input:focus{
+    border-radius: 20px;
+    border-color: none;
+}
+#CName{
+    width: 55%;
+    padding: 2%;
+    
+}
+
+#CNum{
+    width: 55%;
+    padding: 2%;
+}
+.MY{
+    width: 8%;
+    padding: 2%;
+}
+#CVC{
+    width: 23%;
+    margin-left:5%; 
+    padding:2%;
+}
+.CVC{
+    margin-left: 9%;
+}
+
+#before {
+    width: 60%;
+    padding: 2.5%;
+    margin-top: 0%;
+    background-color:  hsl(266, 87%, 37%);
+    color:white;
+    border-radius: 7px;
+}
+#before:hover{
+    background-color: brown;
+transform:scale(0.95);
+
+}
+#after{
+    background-color:  hsl(266, 87%, 37%);
+    color:white;
+    border-radius: 7px;
+    width: 140%;
+    padding: 5%;
+    margin-left: -20%;
+    
+}
+.thanks {
+    
+    display: inline-block;
+    text-align: center;
+    position:absolute;
+    right:20%;
+    top:35%;
+    display: none;
+    
+}
+
+.erreur{
+    width: 40%;
+    display: inline-block;
+    font-size:10px;
+    color:hsl(0, 100%, 66%);
+    display: none ;
+}
+#CV{
+    position: absolute;
+    left:34%;
+    margin-top: -6%;
+    font-size:10px;
+    color:hsl(0, 100%, 66%);
+    display: none;
+}
